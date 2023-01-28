@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+/* registered */
+
+body.regist  {
+	background-color: #D9D9D9;
+	}
+
+
+h5.regist {
+	text-align: center;
+	color: #248;
+	margin-top: 10%;
+	}
+
+	
+button.regist {
+	color: #fff;
+	background-color: #248;
+	padding: 10px 15px 10px 15px;
+	border: transparent;
+	border-radius: 10px;
+	}
+
+	
+button.regist:hover {
+	color: #248;
+	background-color: #fff;
+	padding: 10px 15px 10px 15px;
+
+	}
+	

@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+/* Edit Applicant form */
+
+* {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #248;
+	}
+	
+
+h2.editapplicant1{
+	text-align: center;	
+	margin-top: 5%;
+}
+
+
+button.edit-back {
+	text-align:center;
+	}
+
+
+td {
+	padding: 10px;
+	}
+
+
+td.edit-details {
+	font-size:large;
+	}
+
+
+input.edit-details-item {
+	width: 200%;
+	padding: 10px 15px 10px 15px;
+	}
+
+
+input.edit-details-address {
+	width: 200%;
+	padding: 10px 15px 10px 15px;
+	}	
+	
+	
+input.confirm-edit, button.back {
+	color: #fff;
+	background-color: #248;
+	padding: 10px 30px 10px 30px;
+	border: transparent;
+	border-radius: 5px;
+	margin-left: 80px;
+	}	
+
+
+input.confirm-edit:hover, button.back:hover {
+	color: #248;
+	background-color: #fff;
+	padding: 10px 30px 10px 30px;
+	border: 1px solid #248;
+	border-radius: 5px;
+	}
+
+

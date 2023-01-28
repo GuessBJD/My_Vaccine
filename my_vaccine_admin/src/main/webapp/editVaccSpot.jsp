@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%@page import="com.dao.Vacc_centerDao" %>
+
+<jsp:useBean id="vc" class="com.dao.bean.Vacc_center"></jsp:useBean>
+<jsp:setProperty property="*" name="vc"/>
+
+<%
+	if(session.getAttribute("user") == null)
+	{
+		response.sendRedirect("invalidUserSession.html");
+	}else{
+		int i=Vacc_centerDao.update(vc);
+		response.sendRedirect("vaccSpotManager.jsp");
+	}
+%>
+
+</body>
+</html>

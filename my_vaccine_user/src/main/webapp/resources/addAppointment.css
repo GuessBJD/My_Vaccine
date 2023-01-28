@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+/* Add Appointment */
+
+* {
+	font-family: 'Josefin Sans', sans-serif;
+	}
+
+
+body {
+	background-color: E9E9E9;
+	color: #248;
+	}
+
+
+h3.add-appointment {
+	text-align: center;
+	margin-top: 5%;
+	}
+
+
+input.submit, button.back {
+	color: #fff;
+	background-color: #248;
+	padding: 10px 20px 10px 20px;
+	border: transparent;
+	border-radius: 5px;
+	margin-left: 35px;
+	}
+
+
+input.submit:hover, button.back:hover {
+	color: #248;
+	background-color: #fff;
+	padding: 10px 15px 10px 15px;
+	border: 1px solid #248;
+	border-radius: 5px;
+	}
+
+
+td {
+	padding: 10px;
+	}
+
+
+select.vac-cen, .vac-choice, .district, .state {
+	font-size: large;
+	padding: 10px 15px 10px 15px;
+	}
+
+
+td.details {
+	font-size:large;
+	}
+
+
+input.details-item1 {
+	font-size: 150%;
+	margin-left: 35px;
+	}
+
+
+input.details-item {
+	width: 100%;
+	padding: 10px 15px 10px 15px;
+	}
+

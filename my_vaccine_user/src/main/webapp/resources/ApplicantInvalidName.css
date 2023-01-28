@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+/* Applicant Invalid Name */
+
+h6.invalid {
+	color: red;
+	text-align:center;
+	margin-top: 10%;
+	}
+
+
+*{
+	font-family: 'Josefin Sans', sans-serif;
+	}

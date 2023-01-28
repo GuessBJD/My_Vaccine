@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+/* Add Applicant form */
+
+h1.title {
+	color: #248;
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	}
+  
+                 
+h1.title:before, h1.title:after {
+  	content: "";
+   	flex: 1 1;
+	border-bottom: 3px solid #248;
+	margin: auto;
+	}
+	
+
+body.add{
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+	}
+
+
+.addapplicant{
+	width: 400px;
+	margin: 16px auto;
+	font-size: 16px;
+	}
+	
+
+.addapplicant-header, .addapplicant p {
+	margin-top: 0;
+	margin-bottom: 0;
+	border-top-left-radius: 5px;	
+	border-top-right-radius: 5px;
+	}
+
+
+.addapplicant-header{
+	background: #248;
+	padding: 20px;
+	font-size: 1.4em;
+	font-weight: normal;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	}
+
+
+.container{
+	background: #ebebeb;
+	padding: 12px;
+	border-radius: 5px;
+	}
+
+
+.addapplicant p{
+	padding: 12px;
+
+	}
+
+
+.addapplicant input{
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	padding: 16px;
+	outline: 0;
+	font-family: inherit;
+	font-size: 0.95em;	
+	}
+
+
+.addapplicant input [type="ic"]{
+	background: #fff;
+	border-color: #bbb;
+	color: #555;
+	}
+
+
+.addapplicant input[type="ic"]:focus{
+	border-color: #888;
+	}
+
+
+.addapplicant input[type="submit"], .addapplicant input[type="button"]{
+	background: #248;
+	border-color: transparent;
+	color: #fff;
+	cursor:pointer;
+	border-radius: 35px;
+	}
+
+
+.addapplicant input[type="submit"]:hover, .addapplicant input[type="button"]:hover{
+	background: #17c;
+	}
+	
+	
+.addapplicant input[type="submit"]:focus, .addapplicant input[type="button"]:focus{
+	border-color: #05a;
+	}
+	
+.addapplicant-triangle{
+	width: 0;
+	margin-right: auto;
+	margin-left: auto;
+	border: 12px solid transparent;
+	border-bottom-color: #248;
+	}
+
+div.error {
+	color: red;
+	text-align: center;
+	}
+

@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+/* Edit Success*/
+
+body {
+	background-color: #E9E9E9;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #248;
+	text-align: center;
+	margin-top: 20%;
+	}
+
+
+button.editsuccess  {
+	color: #fff;
+	background-color: #248;
+	border: transparent;
+	border-radius: 5px;
+	padding: 10px 15px 10px 15px;
+	}	
+
+
+button.editsuccess:hover  {
+	color: #248;
+	background-color: #fff;
+	border: 1px solid #248;
+	border-radius: 5px;
+	padding: 10px 15px 10px 15px;
+	}	
+
+
+
+
+
+

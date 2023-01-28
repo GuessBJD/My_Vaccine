@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+/* View_Applicant */
+
+* {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #248;
+	font-size: large;
+	}
+
+
+.body.ViewApplicantS {
+	background-color: #E9E9E9;
+	}
+
+
+h2.title:before, h2.title:after {
+  	content: "";
+   	flex: 1 1;
+	border-bottom: 3px solid #248;
+	margin: auto;
+	
+	}
+	
+
+h2.title {
+	text-align: center;
+	margin-top: 6%;
+	margin-bottom: 40px;	
+	}
+	
+
+th, td {
+	padding: 15px 10px 15px 15px;
+	}
+
+
+table.table-status, .table-Pdetails, .table-details {
+	height: 200px;
+	}
+	
+
+button.edit-info, button.back {
+	padding: 10px 15px 10px 15px;
+	color: #fff;
+	background-color: #248;
+	border: transparent;
+	border-radius: 5px;
+	margin-left: 5%;
+	}
+
+
+button.edit-info:hover, button.back:hover {
+	padding: 10px 15px 10px 15px;
+	color: #248;
+	background-color: #fff;
+	border: 1px solid #248;
+	border-radius: 5px;
+	}
+
+
+button.edit-info {
+	margin-left: 38%;
+	}

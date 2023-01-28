@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+/* Applicant not found */
+
+* {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+body.notfound {
+	background-color: #D9D9D9;
+	}
+
+
+h6.notfound {
+	color: #248;
+	text-align:center;
+	margin-top: 10%;
+	}
+
+
+button.btn1 {
+	color: #fff;
+	background-color: #248;
+	margin: auto;
+	border-radius: 10px;
+	padding: 10px 15px 10px 15px;
+	border: transparent;
+	}
+
+
+button.btn1:hover {
+	color: #248;
+	background-color: #fff;
+	margin: auto;
+	border-radius: 10px;
+	padding: 10px 15px 10px 15px;
+	}
+
+
+td.ic, .name {
+	padding: 20px;
+	}

@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+
+/* Home Page */
+
+* {
+	font-family: 'Josefin Sans', sans-serif;
+	}
+
+body.home {
+	text-align: justify;
+	text-justify: center;		
+	}
+  
+h1.title {
+	color: #248;
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	}
+  
+                 
+h1.title:before, h1.title:after {
+  	content: "";
+   	flex: 1 1;
+	border-bottom: 3px solid #248;
+	margin: auto;
+	}
+	
+	
+div.section_tittle {
+	font-weight: bold;
+	font-size: 120%;
+	color: #248;
+	}
+
+
+button.btn {
+	color:#fff;
+	border: 1px solid #fff;
+	}
+
+
+button.btn:hover {
+	color: D9D9D9;
+	}
+
+
+nav.navbar {
+	background-color: #248;
+	}
+
+
+a.link {
+	text-decoration: none;
+	}	
+
+
+.booknow {
+	color:#248;
+	border: 1px solid #248;
+	border-radius: 5px;
+	padding: 8px 15px 8px 15px;
+	}
+	
+.booknow:hover {
+	color:#fff;
+	border: 1px solid #248;
+	border-radius: 5px;
+	padding: 8px 15px 8px 15px;
+	background-color: #248;
+	}

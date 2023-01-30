@@ -1,7 +1,7 @@
 # My_Vaccine
 
 ## About
-Coursework Final Group Project of Programming Elective II (1). A web application for vaccination registration and checking. The project is a distributed web application developed using Java EE architecture with the use of tools and features such as JSP, JDBC, and POJOs. The project was coded in HTML, CSS, and Java.
+Coursework final group project of Programming Elective II (1). A web application for vaccination registration and checking. The project is a distributed web application developed using Java EE architecture with the use of tools and features such as JSP, JDBC, and POJOs. The project was coded in HTML, CSS, and Java.
 
 ## Details
 ### Admin Package
